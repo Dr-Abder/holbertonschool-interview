@@ -9,8 +9,8 @@ def canUnlockAll(boxes):
 
     """
     Détermine si toutes les boîtes peuvent être ouvertes.
-    
-    boxes: list de listes, chaque liste contient les clés présentes dans la boîte.
+    boxes: list de listes, chaque liste contient 
+    les clés présentes dans la boîte.
     Retourne True si toutes les boîtes peuvent être ouvertes, sinon False.
     """
 
@@ -18,7 +18,7 @@ def canUnlockAll(boxes):
     stack = [0]     # pile pour explorer les boîtes
 
     while stack:
-        box =  stack.pop()
+        box = stack.pop()
         for key in boxes[box]:
             if key < len(boxes) and key not in visited:
                 visited.add(key)
