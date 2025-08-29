@@ -9,7 +9,7 @@ def canUnlockAll(boxes):
 
     """
     Détermine si toutes les boîtes peuvent être ouvertes.
-    boxes: list de listes, chaque liste contient 
+    boxes: list de listes, chaque liste contient
     les clés présentes dans la boîte.
     Retourne True si toutes les boîtes peuvent être ouvertes, sinon False.
     """
