@@ -19,9 +19,7 @@ for (x = 0; x < 3; x++)
 grid1[i][x] += grid2[i][x];
 }
 }
-/**
-* topple - faire un topple si grid1 n'est pas stable
-*/
+
 while (!is_stable(grid1))
 {
 printf("=\n");
