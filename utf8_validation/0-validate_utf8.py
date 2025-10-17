@@ -3,6 +3,7 @@
 UTF-8 encodage
 """
 
+
 def validUTF8(data):
     """
     Détermine si data représente un encodage UTF-8 valide
